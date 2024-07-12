@@ -51,7 +51,7 @@ You can run the collector on a free instance of [Fly.io](https://fly.io/)
 Follow these steps:
 
 1. Make sure you have the [Fly CLI](https://fly.io/docs/getting-started/installing-flyctl/) installed, and you are logged in.
-2. Run `fly launch` to deploy the app to Fly.
+2. Run `fly launch --copy-config` to deploy the app to Fly.
 3. Copy your `.env` file to your Fly project: `fly secrets import < .env`
 4. After a successful deployment, your app will be available at `https://<your-app-name>.fly.dev`
 
